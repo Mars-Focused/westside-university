@@ -32,7 +32,9 @@ export default class Student extends Component {
         <h3>Grade: {this.state.studentInfo.grade}</h3>
 
         <h3>Email: {this.state.studentInfo.email}</h3>
-        <Link>
+        <Link
+          to={`http://localHost:3005/students?class=${this.props.match.params.class}`}
+        >
           <h3>BLACK DIAMOND</h3>
         </Link>
       </div>
