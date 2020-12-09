@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 
-import Home from "./src/components/Home/Home";
-import About from "./src/components/About/About";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
 
 export default (
   <Switch>
